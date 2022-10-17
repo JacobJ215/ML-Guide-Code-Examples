@@ -11,7 +11,7 @@ y = 4 + 2 * X + np.random.randn(100, 1)
 iter = 1000  # Number of iterations
 lr = 0.01  # Learning Rate
 
-b = np.random.random()
+b = np.random.random()  # bias
 theta = np.random.randn(2, 1)  # weights
 
 
@@ -93,7 +93,6 @@ def plot_loss():
     ax.set_ylabel('Theta')
     ax.set_xlabel('Iterations')
     ax.plot(range(iter), cost_history, 'b.')
-    ax.title.set_text('Learning Curve')
     plt.savefig('Images/gd_learning_curve.png')
     plt.show()
 
