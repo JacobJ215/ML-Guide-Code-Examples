@@ -41,13 +41,17 @@ mse = mean_squared_error(y_test, y_pred)
 rmse = np.sqrt(mse)
 print(f"RMSE: {rmse}")
 
+# Print intercept and coefficient
+print(f"Intercept: {model.intercept_}")
+print(f"Coefficient: {model.coef_}")
+
 # Plot results
-x_ax = range(len(y_test))
-plt.plot(x_ax, y_test, linewidth=1, label="Actual")
-plt.plot(x_ax, y_pred, linewidth=1, label="Predicted")
+ax = range(len(y_test))
+plt.plot(ax, y_test, linewidth=1, label="Actual")
+plt.plot(ax, y_pred, linewidth=1, label="Predicted")
 plt.title("Actual vs Predicted")
 plt.xlabel('Actual')
 plt.ylabel('Predicted')
-plt.legend(loc='best', fancybox=True, shadow=True)
-plt.grid(True)
+plt.legend(loc='best', shadow=True)
+plt.savefig('Images/sgd_regressor.png')
 plt.show()
