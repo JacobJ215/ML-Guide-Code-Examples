@@ -46,9 +46,9 @@ print(f"Intercept: {model.intercept_}")
 print(f"Coefficient: {model.coef_}")
 
 # Plot results
-ax = range(len(y_test))
-plt.plot(ax, y_test, linewidth=1, label="Actual")
-plt.plot(ax, y_pred, linewidth=1, label="Predicted")
+x = range(len(y_test))
+plt.plot(x, y_test, linewidth=1, label="Actual")
+plt.plot(x, y_pred, linewidth=1, label="Predicted")
 plt.title("Actual vs Predicted")
 plt.xlabel('Actual')
 plt.ylabel('Predicted')
