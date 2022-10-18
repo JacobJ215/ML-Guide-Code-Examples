@@ -1,7 +1,7 @@
+# Import Libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 plt.style.use('ggplot')
 
 # Define target and feature variables
@@ -20,6 +20,8 @@ theta = np.random.randn(2, 1)  # weights
 
 def plot_reg():
     sns.regplot(x=X, y=y, color="g")
+    plt.xlabel('x')
+    plt.ylabel('y', rotation='horizontal')
     plt.title("Relationship between x and y")
     plt.savefig("Images/regression_plot.png")
     plt.show()

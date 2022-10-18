@@ -56,6 +56,9 @@ def plot_results():
     plt.savefig('Images/linear_regression.png')
     plt.show()
 
+
+plot_results()
+
 # Plot Residuals
 
 
