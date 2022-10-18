@@ -19,7 +19,7 @@ theta = np.random.randn(2, 1)  # weights
 
 
 def plot_reg():
-    ax = sns.regplot(x=X, y=y, color="g")
+    sns.regplot(x=X, y=y, color="g")
     plt.title("Relationship between x and y")
     plt.savefig("Images/regression_plot.png")
     plt.show()
@@ -90,9 +90,10 @@ cost_history, theta_history, theta = gradient_descent(X_b, y, theta, lr, iter)
 def plot_loss():
     fig, ax = plt.subplots(figsize=(7, 5))
 
-    ax.set_ylabel('Theta')
+    ax.set_ylabel('Loss')
     ax.set_xlabel('Iterations')
     ax.plot(range(iter), cost_history, 'b.')
+    plt.title('Model Loss')
     plt.savefig('Images/gd_learning_curve.png')
     plt.show()
 
