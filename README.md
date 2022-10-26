@@ -279,7 +279,7 @@ plot_loss()
 
 Source: Original Image
 
-Click link for full code example:[https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/gradient_descent.py](https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/gradient_descent.py)
+Click link for full code example:[https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/gradient_descent.py](https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/gradient_descent.py)
 
 ![Screen Shot 2022-09-07 at 8.59.07 PM.png](Images/Screenshots/Screenshot_10.png)
 
@@ -355,7 +355,7 @@ print(f"Intercept: {model.intercept_}")
 print(f"Coefficient: {model.coef_}")
 ```
 
-Click link for full code example: [https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/sgd_regressor.py](https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/sgd_regressor.py)
+Click link for full code example: [https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/sgd_regressor.py](https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/sgd_regressor.py)
 
 ---
 
@@ -473,7 +473,7 @@ plot_residuals()
 
 Source: Original Image
 
-Click link for full code example: [https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/linear_regression.py](https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/linear_regression.py)
+Click link for full code example: [https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/linear_regression.py](https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/linear_regression.py)
 
 ---
 
@@ -638,7 +638,7 @@ mse = mean_squared_error(y_test, y_pred)
 print("RMSE: ", np.sqrt(mse)) # RMSE:  53566.47742727666
 ```
 
-Click link for full code example: [https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/regularization.ipynb](https://github.com/JacobJ215/ML-Guide-Code-Examples/blob/main/regularization.ipynb)
+Click link for full code example: [https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/regularization.ipynb](https://github.com/JacobJ215/Machine-Learning-Guide/blob/main/Regression%20Code%20Examples/regularization.ipynb)
 
 ### Support Vector Regressor
 
