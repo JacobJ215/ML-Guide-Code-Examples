@@ -23,7 +23,7 @@ def plot_reg():
     plt.xlabel('x')
     plt.ylabel('y', rotation='horizontal')
     plt.title("Relationship between x and y")
-    plt.savefig("Images/regression_plot.png")
+    plt.savefig("./Images/regression_plot.png")
     plt.show()
 
 
@@ -96,7 +96,7 @@ def plot_loss():
     ax.set_xlabel('Iterations')
     ax.plot(range(iter), cost_history, 'b.')
     plt.title('Model Loss')
-    plt.savefig('Images/gd_learning_curve.png')
+    plt.savefig('./Images/gd_learning_curve.png')
     plt.show()
 
 
