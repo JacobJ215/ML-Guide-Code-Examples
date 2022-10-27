@@ -53,7 +53,7 @@ def plot_results():
     plt.xlabel('x')
     plt.ylabel('y')
     plt.title('Simple Linear Regression')
-    plt.savefig('./Images/linear_regression.png')
+    plt.savefig('../Images/linear_regression.png')
     plt.show()
 
 
@@ -68,7 +68,7 @@ def plot_residuals():
     plt.hlines(y=0, xmin=-20, xmax=20, linewidth=2)
     plt.legend(loc='upper right')
     plt.title("Residual errors")
-    plt.savefig('./Images/residual_plot.png')
+    plt.savefig('../Images/residual_plot.png')
     plt.show()
 
 
